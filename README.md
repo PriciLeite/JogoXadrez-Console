@@ -1,7 +1,7 @@
 # JogoXadrez-Console
 <div align="center"
 Projeto Jogo de xadrez no modo console </br>
-- Intuito desse projeto:  Estudo para construção de classe, Sobreposição de classes
+- Intuito desse projeto:  Estudo para construção de classe, Composição de classes
 e métodos, Herança e Polimorfismo na linguagem C#.                   
 Intensive object-oriented programming - Profº Nélio Alves *
 <div>
