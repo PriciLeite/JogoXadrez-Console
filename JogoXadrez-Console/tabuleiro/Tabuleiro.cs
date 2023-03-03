@@ -5,28 +5,24 @@ namespace tabuleiro
 {
     class Tabuleiro
     {
-        public int Linha { get; set; }
-        public int Coluna { get; set; }
+        public int Linhas { get; set; }
+        public int Colunas { get; set; }
+
         private Peca[,] pecas;  //Matriz de linhas x colunas
  
 
-        public Tabuleiro(int linhas, int coluna) 
+        public Tabuleiro(int linhas, int colunas) 
         {
-            Linha = linhas;
-            Coluna = coluna;      
-            pecas = new Peca[linhas, coluna];
+            Linhas = linhas;
+            Colunas = colunas;      
+            pecas = new Peca[linhas, colunas];
         }
+                
 
-
-        public override string ToString()
+        public Peca peca(int linha, int coluna)
         {
-            return $"Tabuleiro: " +"[" + Linha + "]" + "[" + Coluna + "]";
+            return pecas[linha,coluna];
         }
-
-
-
-
-
     }
 
 }
