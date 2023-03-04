@@ -19,7 +19,7 @@ namespace tabuleiro
 
         public override string ToString()
         {
-            return "Posição(" + Linha + "," + Coluna + ")";
+            return  "(" + Linha + "," + Coluna + ")";
         }
 
 
