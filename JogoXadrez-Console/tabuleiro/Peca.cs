@@ -10,12 +10,12 @@ namespace tabuleiro
         public int qteMovimentos { get; protected set; } //alterada somente pelas subclasses e ela mesma.
         public Tabuleiro Tabuleiro { get; protected set; } //alterada somente pelas subclasses e ela mesma.
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tabuleiro) 
+        public Peca(Cor cor, Tabuleiro tabuleiro) 
         {
-            this.Posicao = posicao;
+            this.Posicao = null;                // A peça inicialmente não tem posição.
             this.Cor = cor;
             this.Tabuleiro = tabuleiro;
-            this.qteMovimentos = 0;
+            this.qteMovimentos = 0;             // Qte de movimento inicialmente é zero.
         
         }
     

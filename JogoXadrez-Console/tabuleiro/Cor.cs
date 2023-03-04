@@ -7,6 +7,7 @@ namespace tabuleiro
         Amarelo = 0,
         Branco = 1,
         Azul = 2,
-        Vermelho = 3
+        Vermelho = 3,
+        Preto = 4
     }
 }
