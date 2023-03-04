@@ -13,6 +13,7 @@ namespace JogoXadrez_Console
             {
                 Console.WriteLine("=================== JOGO DE XADREZ ===================");
                 Console.WriteLine();
+                Console.WriteLine();
                 Tabuleiro tab = new Tabuleiro(8, 8);
 
                 tab.colocarPeca(new Torre(Cor.Branco, tab), new Posicao(0, 0));
@@ -24,9 +25,6 @@ namespace JogoXadrez_Console
                 tab.colocarPeca(new Torre(Cor.Branco, tab), new Posicao(7, 7));
                 Tela.ImprimirTabuleiro(tab);
 
-                PosicaoXadrez pos = new PosicaoXadrez('c', 7);
-                Console.WriteLine(pos);
-                Console.WriteLine(pos.toPosicao());
 
             }
             catch (TabuleiroExceptions e)
