@@ -12,7 +12,7 @@ namespace JogoXadrez_Console
                 for (int j = 0; j < tabuleiro.Colunas; j++)          // percorrendo a matriz
                 {
                     if (tabuleiro.peca(i,j) == null)
-                    {
+                    {                        
                         Console.Write("- ");
                     }
                     else
